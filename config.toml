@@ -14,7 +14,7 @@ defaultContentLanguage = "en"
     name       = "Contact"
     identifier = "Contact"
     url        = "/"
-    weight     = 2
+    weight     = 6
 
 [[menu.main]]
     name       = "Home"
@@ -23,22 +23,55 @@ defaultContentLanguage = "en"
     weight     = 1
 
 [[menu.main]]
-    name       = "Option 1: Starting page"
-    url        = "/"
-    weight     = 1
-    parent     = "Main Menu"
-
-[[menu.main]]
-    name       = "Option 2: Who are we?"
+    name       = "Products"
+    identifier = "Products"
     url        = "/"
     weight     = 2
-    parent     = "Main Menu"
 
 [[menu.main]]
-    name       = "Option 3: Existential crisis"
+    name       = "Product Option 1"
+    url        = "/"
+    weight     = 1
+    parent     = "Products"
+
+[[menu.main]]
+    name       = "Product Option 2"
+    url        = "/"
+    weight     = 2
+    parent     = "Products"
+
+
+[[menu.main]]
+    name       = "Services"
+    identifier = "Services"
     url        = "/"
     weight     = 3
-    parent     = "Main Menu"
+
+[[menu.main]]
+    name       = "Service Option 1"
+    url        = "/"
+    weight     = 1
+    parent     = "Services"
+
+[[menu.main]]
+    name       = "Service Option 2"
+    url        = "/"
+    weight     = 2
+    parent     = "Services"
+
+[[menu.main]]
+    name       = "Blogs"
+    identifier = "Blogs"
+    url        = "/blog/"
+    weight     = 4
+
+[[menu.main]]
+    name       = "About us"
+    identifier = "About us"
+    url        = "/"
+    weight     = 5
+
+
 
 [params.topbar]
     enable = true
