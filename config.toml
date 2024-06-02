@@ -1,7 +1,6 @@
 baseURL = 'https://bloomadoo.com/'
 title = 'Bloomadoo first test site'
 theme = 'hugo-universal-theme-master'
-style = "blue"
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 
@@ -13,7 +12,7 @@ defaultContentLanguage = "en"
 [[menu.main]]
     name       = "Contact"
     identifier = "Contact"
-    url        = "/"
+    url        = "/contact/"
     weight     = 6
 
 [[menu.main]]
@@ -68,7 +67,7 @@ defaultContentLanguage = "en"
 [[menu.main]]
     name       = "About us"
     identifier = "About us"
-    url        = "/"
+    url        = "/about_us/"
     weight     = 5
 
 
@@ -94,7 +93,8 @@ defaultContentLanguage = "en"
     viewMorePostLink = "/blog/"
     mainSections = ["blog"]
     defaultDescription = "Site template made by Attila using Hugo"
-
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "turquoise"
     disabled_logo = false
     logo_text = "Bloomadoo"
     defaultKeywords = ["Bloomadoo", "training", "continuous improvement"]
@@ -112,7 +112,7 @@ defaultContentLanguage = "en"
     enable = true
     icon = "far fa-file-alt"
     title = "Get the light that is needed for your growing?"
-    subtitle = "We have prepared for you everything."
+    subtitle = "We have prepared for you everything to reach your full potential performance."
     link_url = "#"
     link_text = "Best info comes from here"
 
